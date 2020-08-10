@@ -66,7 +66,9 @@ for datapoint in weather_json["list"]:
 #for datapoint in weather_json['list']:
  #   print(str(weather_json['list'].index(datapoint)) + ";" + str(datapoint['dt_txt']) + ";" + str(datapoint['main']['temp']) + ";" + str(datapoint['weather'][0]['id']))
 
+   
 
+   
 
 f = open("data.csv" , "w+" , newline="")
 
